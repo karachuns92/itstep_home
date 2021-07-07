@@ -1,0 +1,15 @@
+.one {color: darkkhaki;}
+.two {color: gold;}
+.three {color: lime;
+font-size: larger;}
+table{
+    border: 2px solid red;
+ border-collapse: collapse; 
+width: 300px;
+}
+td{border: 2px dashed rgb(39, 187, 10);
+    /*dashed - пунктир
+    dotted - точки
+    /* solid - сплошная */
+
+}
