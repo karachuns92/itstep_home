@@ -1,15 +1,34 @@
+*{
+    box-sizing: border-box;
+}
 .one {color: darkkhaki;}
 .two {color: gold;}
 .three {color: lime;
 font-size: larger;}
 table{
-    border: 2px solid red;
+    border: 1px solid rgb(42, 204, 142);
  border-collapse: collapse; 
-width: 300px;
-}
-td{border: 2px dashed rgb(39, 187, 10);
-    /*dashed - пунктир
-    dotted - точки
-    /* solid - сплошная */
+ /* убирание пробелов в таблице */
+width: 600px;
+height: 300px;
 
 }
+/.one{color: royalblue;}
+
+.tb td{border: 2px dashed rgb(39, 187, 10);
+    padding: 15px 15px;
+    /* padding: 15px первое число (top bottom) второе число 10px (left right);
+    padding-top: 15px; */
+    /* padding-right: 15px; */
+    /*dashed - пунктир
+    dotted - точки
+    /* solid - сплошная
+    padding -ширина */
+
+}
+p{width: 1000px;
+background-color: rgb(39, 187, 10);}
+#id3{padding: 10px;
+    text-align: justify;}
+ .p2{padding: 15[x 10px];}
+/* margin: auto;} центрирование */
